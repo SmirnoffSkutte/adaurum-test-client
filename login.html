@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Логин</title>
+</head>
+<body>
+    <header class="nav-container">
+        <nav class="nav-blocks">
+        <div class="nav-h">
+            <a href="/">
+                <img src="assets/logo.PNG" class="logo" alt="logo">
+            </a>
+        </div>
+
+        <div class="auth-blocks">
+            <div class="nav-h">
+                <a href="/">
+                Компании
+                </a>
+            </div>
+            <div class="nav-h-icon">
+                <a href="/login">
+                Войти
+                </a>
+                <i class="bi-box-arrow-in-right" style="font-size: 1.5rem; color: rgb(255, 255, 255);"></i>
+            </div>
+            <div class="nav-h-icon">
+                <a href="/registration">
+                Регистрация
+                </a>
+                <i class="bi-person-fill-add" style="font-size: 1.5rem; color: rgb(255, 255, 255);"></i>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="centeredBlock">
+        <div class="loginContainer">
+        <div class="loginForm">
+            <div class="flexCenter">
+                <h2 class="nav-h">Логин</h2>
+            </div>
+            <label class="formLabel" for="email">E-mail</label>
+            <input class="formInput" placeholder="Введите ваш email..." type="email" id="email" />
+            <label class="formLabel" for="password">Пароль</label>
+            <input class="formInput" placeholder="Введите ваш пароль..." type="password" id="password" />
+            
+            <button class="loginButton" id="logButton">Логин</button>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/login.js"></script>
+</body>
+</html>
